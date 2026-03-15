@@ -9,7 +9,6 @@ description: >
 
 This skill guides the agent through a safe and structured process for deploying a software project to production while minimizing errors, downtime, and security issues.
 
----
 
 ## When to Use
 
@@ -19,8 +18,6 @@ The agent should use this skill when:
 * The developer wants to verify that the application is production-ready.
 * The system must be checked for configuration, dependency, and security issues before deployment.
 * Deployment reliability and system stability are important.
-
----
 
 ## Prerequisites / Inputs
 
@@ -36,8 +33,6 @@ Optional but recommended:
 
 * CI/CD pipeline configuration
 * Monitoring and logging tools
-
----
 
 ## Process Steps
 

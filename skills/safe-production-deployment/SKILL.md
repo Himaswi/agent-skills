@@ -58,8 +58,6 @@ Example tools:
 * Prettier
 * Flake8
 
----
-
 ### 2. Run Application Tests
 
 The agent should verify that the project passes all tests.
@@ -72,8 +70,6 @@ Steps:
 4. Verify that edge cases (invalid inputs, empty data, large inputs) are handled properly.
 
 If any tests fail, deployment should be stopped until the issue is fixed.
-
----
 
 ### 3. Validate Environment Configuration
 
@@ -91,8 +87,6 @@ Example environment variables:
 * `API_KEY`
 * `SECRET_TOKEN`
 
----
-
 ### 4. Check Dependencies
 
 The agent should confirm that all dependencies are properly installed and secure.
@@ -107,8 +101,6 @@ Example tools:
 
 * `npm audit`
 * `pip-audit`
-
----
 
 ### 5. Validate Database Migrations
 
@@ -126,8 +118,6 @@ Migration tools may include:
 * Alembic
 * Prisma migrations
 
----
-
 ### 6. Deploy to Staging Environment
 
 The agent should deploy the application to a staging environment before production.
@@ -142,8 +132,6 @@ The staging deployment should verify:
 * Authentication systems
 * Database operations
 * User interface behavior
-
----
 
 ### 7. Perform Security Checks
 
@@ -162,8 +150,6 @@ Common risks to prevent:
 * Cross-Site Scripting (XSS)
 * Unauthorized API access
 
----
-
 ### 8. Deploy to Production
 
 Once all validations pass, the agent may proceed with production deployment.
@@ -176,8 +162,6 @@ Typical pipeline stages:
 2. Test execution
 3. Build application
 4. Deploy to production
-
----
 
 ### 9. Monitor the System
 
@@ -195,8 +179,6 @@ Example monitoring tools:
 * Prometheus
 * Grafana
 
----
-
 ### 10. Prepare Rollback Plan
 
 The agent should ensure a rollback strategy exists in case deployment fails.
@@ -209,8 +191,6 @@ Rollback procedure:
 4. Notify the development team.
 
 This minimizes downtime and protects system stability.
-
----
 
 ## Output Specification
 
